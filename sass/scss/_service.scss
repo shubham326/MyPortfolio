@@ -1,0 +1,103 @@
+// Branding Side
+
+.bor1 {
+  border: solid 1px #000;
+  background: #04abecab;
+  padding: 3rem;
+  margin-top: 2rem;
+
+    .project {
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: repeat(4, 1fr); 
+      
+      .portrait1 {
+        width: 150px;
+        height: 150px;
+        background: url("imgs/website.jpg");
+        border-radius: 50%; 
+        border: solid 3px $secondary-color;
+      } 
+      
+      .portrait2 {
+        width: 150px;
+        height: 150px;
+        background: url("imgs/soft.jpg");
+        border-radius: 50%; 
+        border: solid 3px $secondary-color;
+      } 
+
+      .portrait3 {
+        width: 150px;
+        height: 150px;
+        background: url("imgs/android.png");
+        border-radius: 50%; 
+        border: solid 3px $secondary-color;
+      } 
+
+      .portrait4 {
+        width: 150px;
+        height: 150px;
+        background: url("imgs//ui.jpg");
+        border-radius: 50%; 
+        border: solid 3px $secondary-color;
+      } 
+
+      h1 {
+        font-size: 23px;
+        margin: 2px;
+        font-weight: 100;
+        padding: 2px;
+        color: #000;
+        margin-top: 2vh;
+      }
+
+      h2 {
+        font-size: 22px;
+        margin: -10px;
+        font-weight: 100;
+        color: bisque;
+        padding: 2px;
+      }
+    }
+  }
+
+
+
+    .bor{
+      border: solid 1px #000;
+      background: #04abec42;
+      margin-top: 2rem;
+      padding: 2rem;
+
+        .projects {
+          display: grid;
+          grid-gap: 2rem;
+          grid-template-columns: repeat(4, 1fr); 
+        }
+
+        .heading {
+          text-align: center;
+          font-size: 45px;
+          font-weight: 500;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin-bottom: 3rem;
+          padding: 1rem;
+          color: #000;
+        }
+    }
+
+    .g-heading {
+      
+      font-size: 61px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+      margin-bottom: -1rem;
+      padding: 2rem;
+    }
+
+    .m-heading {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      padding: 0.2rem 5rem;
+    }

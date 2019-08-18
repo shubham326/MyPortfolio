@@ -1,0 +1,84 @@
+//About info
+.about-info {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 
+  'bioimage bio bio'
+  'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr);
+
+  .bio-img {
+    grid-area: bioimage;
+    margin: auto;
+  }
+
+    .bio {
+      grid-area: bio;
+
+      h3 {
+        font-size: 3rem;
+      }
+
+      .para {
+        font-size: 1.5rem;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 2rem;
+        padding: 1.5rem 2rem;
+        margin: 0;
+      }
+    }
+  
+
+    .job-1 {
+      grid-area: job1;
+
+      h3 {
+        text-align: center;
+        font-size: 2rem;
+        color: $secondary-color;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+
+    .job-2 {
+      grid-area: job2;
+
+      h3 {
+        text-align: center;
+        font-size: 2rem;
+        color: $secondary-color;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+
+    .job-3 {
+      grid-area: job3;
+
+      h3 {
+        text-align: center;
+        font-size: 2rem;
+        color: $secondary-color;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      a:actived {
+        color: green;
+      }
+
+      a {
+        color: blue;
+      }
+    }
+
+    .job {
+      //background: lighten($color: #09b4f8, $amount: 5);
+      background: rgba(lighten($primary-color, 2), 5);
+      padding: 0.5rem;
+      border-bottom: #333 10px solid;
+    }
+}
